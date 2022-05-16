@@ -48,7 +48,7 @@ public:
         SYSTEMID    = 25,
         AUTOROTATE  = 26,
         AUTO_RTL    = 27,
-        TURTLE      = 28,
+        //TURTLE      = 28, //removing flight modes test
     };
 
     APMCopterMode(uint32_t mode, bool settable);
