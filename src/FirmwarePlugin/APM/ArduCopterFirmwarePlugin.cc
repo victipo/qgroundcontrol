@@ -48,7 +48,7 @@ APMCopterMode::APMCopterMode(uint32_t mode, bool settable) :
         { SYSTEMID,     "SystemID" },
         { AUTOROTATE,   "AutoRotate" },
         { AUTO_RTL,     "AutoRTL" },
-        { TURTLE,       "Turtle" },
+        //{ TURTLE,       "Turtle" }, //removing flight modes test
     });
 }
 
