@@ -44,11 +44,11 @@ APMCopterMode::APMCopterMode(uint32_t mode, bool settable) :
         { SMART_RTL,    "Smart RTL"},
         { FLOWHOLD,     "Flow Hold" },
         { FOLLOW,       "Follow" },
-        { ZIGZAG,       "ZigZag" },
+    //    { ZIGZAG,       "ZigZag" },
         { SYSTEMID,     "SystemID" },
         { AUTOROTATE,   "AutoRotate" },
         { AUTO_RTL,     "AutoRTL" },
-        //{ TURTLE,       "Turtle" }, //removing flight modes test
+        { TURTLE,       "Turtle" }, //removing flight modes test
     });
 }
 
@@ -76,12 +76,12 @@ ArduCopterFirmwarePlugin::ArduCopterFirmwarePlugin(void)
         APMCopterMode(APMCopterMode::SMART_RTL,     true),
         APMCopterMode(APMCopterMode::FLOWHOLD,      true),
         APMCopterMode(APMCopterMode::FOLLOW,        true),
-        APMCopterMode(APMCopterMode::ZIGZAG,        true),
-        APMCopterMode(APMCopterMode::ZIGZAG,        true),
+       // APMCopterMode(APMCopterMode::ZIGZAG,        true),
+       // APMCopterMode(APMCopterMode::ZIGZAG,        true),
         APMCopterMode(APMCopterMode::SYSTEMID,      true),
         APMCopterMode(APMCopterMode::AUTOROTATE,    true),
         APMCopterMode(APMCopterMode::AUTO_RTL,      true),
-       // APMCopterMode(APMCopterMode::TURTLE,        true),
+        APMCopterMode(APMCopterMode::TURTLE,        true),
     });
 
     if (!_remapParamNameIntialized) {
