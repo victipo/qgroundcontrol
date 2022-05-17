@@ -81,7 +81,7 @@ ArduCopterFirmwarePlugin::ArduCopterFirmwarePlugin(void)
         APMCopterMode(APMCopterMode::SYSTEMID,      true),
         APMCopterMode(APMCopterMode::AUTOROTATE,    true),
         APMCopterMode(APMCopterMode::AUTO_RTL,      true),
-        APMCopterMode(APMCopterMode::TURTLE,        true),
+       // APMCopterMode(APMCopterMode::TURTLE,        true),
     });
 
     if (!_remapParamNameIntialized) {
