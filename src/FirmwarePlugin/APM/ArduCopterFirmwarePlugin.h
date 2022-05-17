@@ -44,7 +44,7 @@ public:
         SMART_RTL   = 21,  // SMART_RTL returns to home by retracing its steps
         FLOWHOLD    = 22,  // FLOWHOLD holds position with optical flow without rangefinder
         FOLLOW      = 23,  // follow attempts to follow another vehicle or ground station
-        ZIGZAG      = 24,  // ZIGZAG mode is able to fly in a zigzag manner with predefined point A and point B
+       // ZIGZAG      = 24,  // ZIGZAG mode is able to fly in a zigzag manner with predefined point A and point B
         SYSTEMID    = 25,
         AUTOROTATE  = 26,
         AUTO_RTL    = 27,
